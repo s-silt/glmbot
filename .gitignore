@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.log
+.grok-*.log
+# 文档与本地数据一律不推送（用户指示：文档不推送）
+*.md
+runtime/
+agents/
+engine/synthetic/
+!README.md
